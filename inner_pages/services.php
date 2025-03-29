@@ -533,7 +533,7 @@
                         <div class="row">
                             <div class="col-lg-8">
                                 <div class="copy sub-color md-mb30">
-                                    <p>© 2024 <a href="#0">Connect Everest</a>. Company Number: 11948035</p>
+                                    <p>© 2025 Developed By <a href="https://endeavourdigital.in">Endeavour Digital</a>.</p>
                                 </div>
                             </div>
                             <div class="col-lg-4 d-flex justify-content-end">

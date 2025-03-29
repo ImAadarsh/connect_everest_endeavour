@@ -298,7 +298,7 @@
                         <div class="row">
                             <div class="col-lg-8">
                                 <div class="copy sub-color md-mb30">
-                                    <p>© 2024 <a href="#0">Connect Everest</a>. All Rights Reserved</p>
+                                    <p>© 2025 Developed By <a href="https://endeavourdigital.in">Endeavour Digital</a>. All Rights Reserved</p>
                                 </div>
                             </div>
                         </div>
