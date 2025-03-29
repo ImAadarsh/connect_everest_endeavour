@@ -85,21 +85,21 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="inner_pages/about.html">About Us</a>
+                        <a class="nav-link active" href="inner_pages/about.php">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="inner_pages/employer.html">Employer</a>
+                        <a class="nav-link" href="inner_pages/employer.php">Employer</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="inner_pages/employee.html">Employee</a>
+                        <a class="nav-link" href="inner_pages/employee.php">Employee</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="inner_pages/student.html">Students</a>
+                        <a class="nav-link" href="inner_pages/student.php">Students</a>
                     </li>
                 </ul>
             </div>
             <div class="topnav d-flex align-items-center">
-                <a href="inner_pages/contact.html" class="butn butn-rounded">
+                <a href="inner_pages/contact.php" class="butn butn-rounded">
                     <div class="d-flex align-items-center">
                         <span>Contact Us</span>
                         <span class="icon ml-10">
@@ -127,16 +127,16 @@
                         <div class="sub-menu">
                             <ul>
                                 <li>
-                                    <a href="index.html" class="sub-link">Home</a>
+                                    <a href="index.php" class="sub-link">Home</a>
                                 </li>
                                 <li>
-                                    <a href="inner_pages/about.html" class="sub-link">About Us</a>
+                                    <a href="inner_pages/about.php" class="sub-link">About Us</a>
                                 </li>
                                 <li>
-                                    <a href="inner_pages/services.html" class="sub-link">Our Services</a>
+                                    <a href="inner_pages/services.php" class="sub-link">Our Services</a>
                                 </li>
                                 <li>
-                                    <a href="inner_pages/contact.html" class="sub-link">Contact Us</a>
+                                    <a href="inner_pages/contact.php" class="sub-link">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
@@ -149,16 +149,16 @@
                         <div class="sub-menu">
                             <ul>
                                 <li>
-                                    <a href="inner_pages/employer.html" class="sub-link">For Employers</a>
+                                    <a href="inner_pages/employer.php" class="sub-link">For Employers</a>
                                 </li>
                                 <li>
-                                    <a href="inner_pages/employee.html" class="sub-link">For Employees</a>
+                                    <a href="inner_pages/employee.php" class="sub-link">For Employees</a>
                                 </li>
                                 <li>
-                                    <a href="inner_pages/student.html" class="sub-link">For Students</a>
+                                    <a href="inner_pages/student.php" class="sub-link">For Students</a>
                                 </li>
                                 <li>
-                                    <a href="inner_pages/faqs.html" class="sub-link">FAQs</a>
+                                    <a href="inner_pages/faqs.php" class="sub-link">FAQs</a>
                                 </li>
                             </ul>
                         </div>
@@ -171,17 +171,17 @@
                         <div class="sub-menu">
                             <ul>
                                 <li>
-                                    <a href="inner_pages/faqs.html" class="sub-link">Help Center</a>
+                                    <a href="inner_pages/faqs.php" class="sub-link">Help Center</a>
                                 </li>
                                 <li>
-                                    <a href="inner_pages/contact.html" class="sub-link">Support</a>
+                                    <a href="inner_pages/contact.php" class="sub-link">Support</a>
                                 </li>
                             </ul>
                         </div>
                     </li>
                     <li>
                         <div class="o-hidden">
-                            <a href="inner_pages/contact.html" class="link"><span class="fill-text"
+                            <a href="inner_pages/contact.php" class="link"><span class="fill-text"
                                     data-text="Contact Us">Contact Us</span></a>
                         </div>
                     </li>
@@ -367,9 +367,9 @@
                                     <h4>We help passionate Founders perfect theirs design & development game.
                                         <span class="sub-color inline">Let's aim for the <br> top together!</span>
                                     </h4>
-                                    <a href="../inner_pages/about.html" class="butn butn-md butn-bord butn-rounded mt-40">
+                                    <a href="../inner_pages/about.php" class="butn butn-md butn-bord butn-rounded mt-40">
                                         <div class="d-flex align-items-center">
-                                            <span>About Hubfolio</span>
+                                            <span>About Connect Everest</span>
                                             <span class="icon invert ml-10">
                                                 <img src="../common/imgs/icons/arrow-top-right.svg" alt="">
                                             </span>
@@ -392,54 +392,42 @@
                         <div class="slide-har st1">
                             <div class="box">
                                 <div class="item">
-                                    <h2><span>User Centric Design</span>
-                                    </h2>
+                                    <h2><span>International Recruitment</span></h2>
                                 </div>
                                 <div class="item">
-                                    <h2><span>AI-Driven Solutions</span>
-                                    </h2>
+                                    <h2><span>Education Consulting</span></h2>
                                 </div>
                                 <div class="item">
-                                    <h2><span>Flexiable Price</span>
-                                    </h2>
+                                    <h2><span>Visa Assistance</span></h2>
                                 </div>
                                 <div class="item">
-                                    <h2><span>User Centric Design</span>
-                                    </h2>
+                                    <h2><span>Career Guidance</span></h2>
                                 </div>
                                 <div class="item">
-                                    <h2><span>AI-Driven Solutions</span>
-                                    </h2>
+                                    <h2><span>University Placement</span></h2>
                                 </div>
                                 <div class="item">
-                                    <h2><span>Flexiable Price</span>
-                                    </h2>
+                                    <h2><span>Global Opportunities</span></h2>
                                 </div>
                             </div>
                             <div class="box">
                                 <div class="item">
-                                    <h2><span>User Centric Design</span>
-                                    </h2>
+                                    <h2><span>International Recruitment</span></h2>
                                 </div>
                                 <div class="item">
-                                    <h2><span>AI-Driven Solutions</span>
-                                    </h2>
+                                    <h2><span>Education Consulting</span></h2>
                                 </div>
                                 <div class="item">
-                                    <h2><span>Flexiable Price</span>
-                                    </h2>
+                                    <h2><span>Visa Assistance</span></h2>
                                 </div>
                                 <div class="item">
-                                    <h2><span>User Centric Design</span>
-                                    </h2>
+                                    <h2><span>Career Guidance</span></h2>
                                 </div>
                                 <div class="item">
-                                    <h2><span>AI-Driven Solutions</span>
-                                    </h2>
+                                    <h2><span>University Placement</span></h2>
                                 </div>
                                 <div class="item">
-                                    <h2><span>Flexiable Price</span>
-                                    </h2>
+                                    <h2><span>Global Opportunities</span></h2>
                                 </div>
                             </div>
                         </div>
@@ -457,11 +445,11 @@
                         <div class="sec-head mb-100">
                             <div class="row">
                                 <div class="col-lg-5">
-                                    <h6 class="sub-head">Featured Works</h6>
+                                    <h6 class="sub-head">Success Stories</h6>
                                 </div>
                                 <div class="col-lg-7">
-                                    <h4>Our user-centered design encourages
-                                        <span class="sub-color inline">productivity & boosts revenue.</span>
+                                    <h4>Transforming lives through
+                                        <span class="sub-color inline">international opportunities.</span>
                                     </h4>
                                 </div>
                             </div>
@@ -473,24 +461,22 @@
                                         <div class="cont md-mb50">
                                             <div>
                                                 <h5>
-                                                    <a href="../inner_pages/project-details.html">Unerio Residential <br> Complex Landing page</a>
+                                                    <a href="../inner_pages/project-details.php">Tech Professional <br> Placement in Romania</a>
                                                 </h5>
                                             </div>
                                             <div>
-                                                <p>This paragraph is short description to describe about this project,
-                                                    you can use it to improve SEO or highlight some key result of this
-                                                    project</p>
+                                                <p>Successfully placed 50+ IT professionals from Nepal and India in leading tech companies across Romania, handling complete visa and relocation processes.</p>
                                                 <div class="mt-40">
-                                                    <a href="#0" class="tag">Development</a>
-                                                    <a href="#0" class="tag">UI/UX</a>
-                                                    <a href="#0" class="tag">illustration</a>
+                                                    <a href="#0" class="tag">International Recruitment</a>
+                                                    <a href="#0" class="tag">Visa Processing</a>
+                                                    <a href="#0" class="tag">Career Development</a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-7">
                                         <div class="img">
-                                            <img src="assets/imgs/works/1.jpg" alt="">
+                                            <img src="assets/imgs/works/1.jpg" alt="Tech Professional Placement">
                                         </div>
                                     </div>
                                 </div>
@@ -501,23 +487,22 @@
                                         <div class="cont md-mb50">
                                             <div>
                                                 <h5>
-                                                    <a href="../inner_pages/project-details.html">Archin Architecture <br> Studio</a>
+                                                    <a href="../inner_pages/project-details.php">UK University <br> Admissions Success</a>
                                                 </h5>
                                             </div>
                                             <div>
-                                                <p>This paragraph is short description to describe about this project,
-                                                    you can use it to improve SEO or highlight some key result of this
-                                                    project</p>
+                                                <p>Helped 100+ students secure admissions in top UK universities, providing comprehensive guidance on course selection, applications, and visa processes.</p>
                                                 <div class="mt-40">
-                                                    <a href="#0" class="tag">Mobile Responsive</a>
-                                                    <a href="#0" class="tag">UX Design</a>
+                                                    <a href="#0" class="tag">Education Consulting</a>
+                                                    <a href="#0" class="tag">University Placement</a>
+                                                    <a href="#0" class="tag">Student Success</a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-7">
                                         <div class="img">
-                                            <img src="assets/imgs/works/2.jpg" alt="">
+                                            <img src="assets/imgs/works/2.jpg" alt="UK University Admissions">
                                         </div>
                                     </div>
                                 </div>
@@ -528,23 +513,22 @@
                                         <div class="cont md-mb50">
                                             <div>
                                                 <h5>
-                                                    <a href="../inner_pages/project-details.html">Jorger Clarkson - Architect <br> Personal Portfolio</a>
+                                                    <a href="../inner_pages/project-details.php">European Career <br> Development Program</a>
                                                 </h5>
                                             </div>
                                             <div>
-                                                <p>This paragraph is short description to describe about this project,
-                                                    you can use it to improve SEO or highlight some key result of this
-                                                    project</p>
+                                                <p>Launched a comprehensive career development program helping professionals transition into European markets with proper skill assessment and training.</p>
                                                 <div class="mt-40">
-                                                    <a href="#0" class="tag">UI/UX</a>
-                                                    <a href="#0" class="tag">Webflow</a>
+                                                    <a href="#0" class="tag">Career Development</a>
+                                                    <a href="#0" class="tag">Professional Training</a>
+                                                    <a href="#0" class="tag">International Careers</a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-7">
                                         <div class="img">
-                                            <img src="assets/imgs/works/3.jpg" alt="">
+                                            <img src="assets/imgs/works/3.jpg" alt="Career Development Program">
                                         </div>
                                     </div>
                                 </div>
@@ -555,33 +539,31 @@
                                         <div class="cont md-mb50">
                                             <div>
                                                 <h5>
-                                                    <a href="../inner_pages/project-details.html">DS Freelance Developer</a>
+                                                    <a href="../inner_pages/project-details.php">Corporate Partnership <br> Initiative</a>
                                                 </h5>
                                             </div>
                                             <div>
-                                                <p>This paragraph is short description to describe about this project,
-                                                    you can use it to improve SEO or highlight some key result of this
-                                                    project</p>
+                                                <p>Established strategic partnerships with leading European companies to create sustainable employment opportunities for international talent.</p>
                                                 <div class="mt-40">
-                                                    <a href="#0" class="tag">Development</a>
-                                                    <a href="#0" class="tag">UI/UX</a>
-                                                    <a href="#0" class="tag">illustration</a>
+                                                    <a href="#0" class="tag">Corporate Partnerships</a>
+                                                    <a href="#0" class="tag">International Recruitment</a>
+                                                    <a href="#0" class="tag">Business Development</a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-7">
                                         <div class="img">
-                                            <img src="assets/imgs/works/4.jpg" alt="">
+                                            <img src="assets/imgs/works/4.jpg" alt="Corporate Partnerships">
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="text-center mt-80">
-                            <a href="../inner_pages/portfolio-cards.html" class="butn butn-md butn-bord butn-rounded">
+                            <a href="../inner_pages/portfolio-cards.php" class="butn butn-md butn-bord butn-rounded">
                                 <div class="d-flex align-items-center">
-                                    <span>Check Our Portfolio</span>
+                                    <span>View More Success Stories</span>
                                     <span class="icon invert ml-10">
                                         <img src="../common/imgs/icons/arrow-top-right.svg" alt="">
                                     </span>
@@ -914,7 +896,7 @@
                             </div>
                         </div>
                         <div class="text-center mt-80">
-                            <a href="inner_pages/about.html" class="butn butn-md butn-bord butn-rounded">
+                            <a href="inner_pages/about.php" class="butn butn-md butn-bord butn-rounded">
                                 <div class="d-flex align-items-center">
                                     <span>Learn More About Us</span>
                                     <span class="icon pe-7s-angle-right ml-10 fz-30"></span>
