@@ -924,6 +924,12 @@
                                                         <input id="form_subject" type="text" name="subject" placeholder="subject" required="required">
                                                     </div>
                                                 </div>
+                                                <div class="col-lg-6">
+                                                    <div class="form-group mb-30">
+                                                        <label for="form_subject">Budget <span class="star">*</span></label>
+                                                        <input id="form_subject" type="text" name="budget" placeholder="Budget" required="required">
+                                                    </div>
+                                                </div>
                                                 <div class="col-12">
                                                     <div class="form-group">
                                                         <label for="form_message">Message</label>

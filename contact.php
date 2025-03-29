@@ -10,6 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = trim($_POST['email']);
     $subject = trim($_POST['subject']);
     $message = trim($_POST['message']);
+    $budget = isset($_POST['budget']) ? trim($_POST['budget']) : '';
 
     // Validate inputs
     if (empty($name) || empty($email) || empty($subject) || empty($message)) {
@@ -21,8 +22,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         try {
             // Prepare SQL statement
-            $sql = "INSERT INTO contact_messages (name, email, subject, message,created_at) 
-                    VALUES (:name, :email, :subject, :message, NOW())";
+            $sql = "INSERT INTO contact_messages (name, email, subject, message, budget, created_at) 
+                    VALUES (:name, :email, :subject, :message, :budget, NOW())";
             
             $stmt = $conn->prepare($sql);
             
@@ -31,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $stmt->bindParam(':email', $email);
             $stmt->bindParam(':subject', $subject);
             $stmt->bindParam(':message', $message);
-
+            $stmt->bindParam(':budget', $budget);
             
             // Execute the statement
             if ($stmt->execute()) {
@@ -43,6 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $email_body .= "Name: " . $name . "\n";
                 $email_body .= "Email: " . $email . "\n";
                 $email_body .= "Subject: " . $subject . "\n";
+                $email_body .= "Budget: " . $budget . "\n\n";
                 $email_body .= "Message:\n" . $message;
                 
                 $headers = "From: " . $email . "\r\n";
