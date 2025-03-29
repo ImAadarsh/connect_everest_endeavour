@@ -229,7 +229,7 @@
                         <div class="row">
                             <div class="col-lg-6 d-flex align-items-center">
                                 <div class="caption">
-                                    <h1>Your Gateway to <span class="sub-color">International Success</span></h1>
+                                    <h1>Your Gateway<span class="sub-color">to International Success</span></h1>
                                     <a href="#contact" class="butn butn-md butn-bord butn-rounded mt-40">
                                         <div class="d-flex align-items-center">
                                             <span>Get Started</span>
