@@ -479,7 +479,7 @@
                                     </div>
                                     <div class="col-lg-7">
                                         <div class="img">
-                                            <img src="assets/imgs/works/1.jpg" alt="Tech Professional Placement">
+                                            <img src="hero_img/1.png" alt="Tech Professional Placement">
                                         </div>
                                     </div>
                                 </div>
@@ -505,7 +505,7 @@
                                     </div>
                                     <div class="col-lg-7">
                                         <div class="img">
-                                            <img src="assets/imgs/works/2.jpg" alt="UK University Admissions">
+                                            <img src="hero_img/2.png" alt="UK University Admissions">
                                         </div>
                                     </div>
                                 </div>
@@ -531,7 +531,7 @@
                                     </div>
                                     <div class="col-lg-7">
                                         <div class="img">
-                                            <img src="assets/imgs/works/3.jpg" alt="Career Development Program">
+                                            <img src="hero_img/3.png" alt="Career Development Program">
                                         </div>
                                     </div>
                                 </div>
@@ -557,7 +557,7 @@
                                     </div>
                                     <div class="col-lg-7">
                                         <div class="img">
-                                            <img src="assets/imgs/works/4.jpg" alt="Corporate Partnerships">
+                                            <img src="hero_img/4.png" alt="Corporate Partnerships">
                                         </div>
                                     </div>
                                 </div>
