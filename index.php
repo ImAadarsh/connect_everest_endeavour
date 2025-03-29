@@ -479,7 +479,7 @@
                                     </div>
                                     <div class="col-lg-7">
                                         <div class="img">
-                                            <img src="hero_img/1.png" alt="Tech Professional Placement">
+                                            <img src="assets/imgs/works/1.jpg" alt="Tech Professional Placement">
                                         </div>
                                     </div>
                                 </div>
@@ -505,7 +505,7 @@
                                     </div>
                                     <div class="col-lg-7">
                                         <div class="img">
-                                            <img src="hero_img/2.png" alt="UK University Admissions">
+                                            <img src="assets/imgs/works/2.jpg" alt="UK University Admissions">
                                         </div>
                                     </div>
                                 </div>
@@ -531,7 +531,7 @@
                                     </div>
                                     <div class="col-lg-7">
                                         <div class="img">
-                                            <img src="hero_img/3.png" alt="Career Development Program">
+                                            <img src="assets/imgs/works/3.jpg" alt="Career Development Program">
                                         </div>
                                     </div>
                                 </div>
@@ -557,7 +557,7 @@
                                     </div>
                                     <div class="col-lg-7">
                                         <div class="img">
-                                            <img src="hero_img/4.png" alt="Corporate Partnerships">
+                                            <img src="assets/imgs/works/4.jpg" alt="Corporate Partnerships">
                                         </div>
                                     </div>
                                 </div>
@@ -1047,7 +1047,7 @@
                         <div class="row">
                             <div class="col-lg-8">
                                 <div class="copy sub-color md-mb30">
-                                    <p>© 2025 Developed By <a href="https://endeavourdigital.in">Endeavour Digital</a>. All Rights Reserved</p>
+                                    <p>© 2025 <a href="#0">Connect Everest</a>. All Rights Reserved</p>
                                 </div>
                             </div>
                             <div class="col-lg-4 d-flex justify-content-end">
