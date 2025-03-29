@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         try {
             // Prepare SQL statement
-            $sql = "INSERT INTO contact_messages (name, email, subject, message, budget, created_at) 
+            $sql = "INSERT INTO contact_queries (name, email, subject, message, budget, created_at) 
                     VALUES (:name, :email, :subject, :message, :budget, NOW())";
             
             $stmt = $conn->prepare($sql);
