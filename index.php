@@ -73,46 +73,7 @@
 
     <!-- ==================== Start Navbar ==================== -->
 
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-
-            <!-- Logo -->
-            <a class="logo" href="#">
-                <img src="assets/imgs/Logo-light.svg" alt="Connect Everest">
-            </a>
-
-            <!-- navbar links -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="inner_pages/about.php">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="inner_pages/employer.php">Employer</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="inner_pages/employee.php">Employee</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="inner_pages/student.php">Students</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="topnav d-flex align-items-center">
-                <a href="inner_pages/contact.php" class="butn butn-rounded">
-                    <div class="d-flex align-items-center">
-                        <span>Contact Us</span>
-                        <span class="icon ml-10">
-                            <img src="../common/imgs/icons/arrow-top-right.svg" alt="">
-                        </span>
-                    </div>
-                </a>
-                <div class="menu-icon cursor-pointer">
-                    <span class="icon ti-align-right"></span>
-                </div>
-            </div>
-        </div>
-    </nav>
+<?php include 'inner_pages/components/header.php'; ?>
 
     <div class="hamenu">
         <div class="close-menu cursor-pointer ti-close"></div>
@@ -461,7 +422,7 @@
                                         <div class="cont md-mb50">
                                             <div>
                                                 <h5>
-                                                    <a href="../inner_pages/project-details.php">Tech Professional <br> Placement in Romania</a>
+                                                    <a href="../inner_pages/services.php">Tech Professional <br> Placement in Romania</a>
                                                 </h5>
                                             </div>
                                             <div>
@@ -487,7 +448,7 @@
                                         <div class="cont md-mb50">
                                             <div>
                                                 <h5>
-                                                    <a href="../inner_pages/project-details.php">UK University <br> Admissions Success</a>
+                                                    <a href="../inner_pages/ser">UK University <br> Admissions Success</a>
                                                 </h5>
                                             </div>
                                             <div>
@@ -513,7 +474,7 @@
                                         <div class="cont md-mb50">
                                             <div>
                                                 <h5>
-                                                    <a href="../inner_pages/project-details.php">European Career <br> Development Program</a>
+                                                    <a href="../inner_pages/ser">European Career <br> Development Program</a>
                                                 </h5>
                                             </div>
                                             <div>
@@ -539,7 +500,7 @@
                                         <div class="cont md-mb50">
                                             <div>
                                                 <h5>
-                                                    <a href="../inner_pages/project-details.php">Corporate Partnership <br> Initiative</a>
+                                                    <a href="../inner_pages/ser">Corporate Partnership <br> Initiative</a>
                                                 </h5>
                                             </div>
                                             <div>
@@ -561,7 +522,7 @@
                             </div>
                         </div>
                         <div class="text-center mt-80">
-                            <a href="../inner_pages/portfolio-cards.php" class="butn butn-md butn-bord butn-rounded">
+                            <a href="../inner_pages/services.php" class="butn butn-md butn-bord butn-rounded">
                                 <div class="d-flex align-items-center">
                                     <span>View More Success Stories</span>
                                     <span class="icon invert ml-10">
