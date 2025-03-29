@@ -451,8 +451,8 @@
                                     <h6 class="sub-head">Success Stories</h6>
                                 </div>
                                 <div class="col-lg-7">
-                                    <h4 class="js-title">Transforming lives through
-                                        <span class="sub-color inline">international opportunities.</span>
+                                    <h4>Transforming lives through
+                                        <span>international opportunities.</span>
                                     </h4>
                                 </div>
                             </div>
