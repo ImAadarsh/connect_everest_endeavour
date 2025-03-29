@@ -13,15 +13,30 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
     $password = $_POST['password'];
 
-    // Hardcoded admin credentials for security
-    if ($email === 'aadarshkavita@gmail.com' && $password === '1@ConnectCE') {
-        $_SESSION['admin_id'] = 1;
-        $_SESSION['admin_name'] = 'Admin';
-        $_SESSION['admin_email'] = $email;
-        header("Location: index.php");
-        exit();
-    } else {
-        $error = "Invalid email or password";
+    try {
+        // Prepare SQL statement to prevent SQL injection
+        $stmt = $conn->prepare("SELECT * FROM users WHERE email = ? AND status = 'active'");
+        $stmt->execute([$email]);
+        $user = $stmt->fetch(PDO::FETCH_ASSOC);
+
+        if ($user && password_verify($password, $user['password'])) {
+            // Update last login timestamp
+            $updateStmt = $conn->prepare("UPDATE users SET last_login = NOW() WHERE id = ?");
+            $updateStmt->execute([$user['id']]);
+
+            // Set session variables
+            $_SESSION['admin_id'] = $user['id'];
+            $_SESSION['admin_name'] = $user['name'];
+            $_SESSION['admin_email'] = $user['email'];
+            $_SESSION['admin_role'] = $user['role'];
+
+            header("Location: index.php");
+            exit();
+        } else {
+            $error = "Invalid email or password";
+        }
+    } catch(PDOException $e) {
+        $error = "An error occurred. Please try again later.";
     }
 }
 ?>
