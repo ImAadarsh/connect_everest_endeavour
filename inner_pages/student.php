@@ -14,7 +14,7 @@
     <title>Student - Connect Everest</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/imgs/favicon.ico">
+    <link rel="shortcut icon" href="assets/imgs/Logo-light.svg">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
