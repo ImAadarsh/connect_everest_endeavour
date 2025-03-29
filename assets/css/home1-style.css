@@ -569,3 +569,10 @@ p {
     width: 200px; }
   .contact-sa .box {
     padding: 120px 40px; } }
+
+/* Hide contact button on mobile */
+@media (max-width: 991px) {
+    .navbar .topnav .butn {
+        display: none;
+    }
+}
