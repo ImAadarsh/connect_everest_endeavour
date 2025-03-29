@@ -451,7 +451,7 @@
                                     <h6 class="sub-head">Success Stories</h6>
                                 </div>
                                 <div class="col-lg-7">
-                                    <h4>Transforming lives through
+                                    <h4 class="js-title">Transforming lives through
                                         <span class="sub-color inline">international opportunities.</span>
                                     </h4>
                                 </div>
@@ -468,7 +468,7 @@
                                                 </h5>
                                             </div>
                                             <div>
-                                                <p>Successfully placed 50+ IT professionals from Nepal and India in leading tech companies across Romania, handling complete visa and relocation processes.</p>
+                                                <p class="js-splittext-lines">Successfully placed 50+ IT professionals from Nepal and India in leading tech companies across Romania, handling complete visa and relocation processes.</p>
                                                 <div class="mt-40">
                                                     <a href="#0" class="tag">International Recruitment</a>
                                                     <a href="#0" class="tag">Visa Processing</a>
@@ -490,11 +490,11 @@
                                         <div class="cont md-mb50">
                                             <div>
                                                 <h5>
-                                                    <a href="../inner_pages/ser">UK University <br> Admissions Success</a>
+                                                    <a href="../inner_pages/services.php">UK University <br> Admissions Success</a>
                                                 </h5>
                                             </div>
                                             <div>
-                                                <p>Helped 100+ students secure admissions in top UK universities, providing comprehensive guidance on course selection, applications, and visa processes.</p>
+                                                <p class="js-splittext-lines">Helped 100+ students secure admissions in top UK universities, providing comprehensive guidance on course selection, applications, and visa processes.</p>
                                                 <div class="mt-40">
                                                     <a href="#0" class="tag">Education Consulting</a>
                                                     <a href="#0" class="tag">University Placement</a>
@@ -516,11 +516,11 @@
                                         <div class="cont md-mb50">
                                             <div>
                                                 <h5>
-                                                    <a href="../inner_pages/ser">European Career <br> Development Program</a>
+                                                    <a href="../inner_pages/services.php">European Career <br> Development Program</a>
                                                 </h5>
                                             </div>
                                             <div>
-                                                <p>Launched a comprehensive career development program helping professionals transition into European markets with proper skill assessment and training.</p>
+                                                <p class="js-splittext-lines">Launched a comprehensive career development program helping professionals transition into European markets with proper skill assessment and training.</p>
                                                 <div class="mt-40">
                                                     <a href="#0" class="tag">Career Development</a>
                                                     <a href="#0" class="tag">Professional Training</a>
@@ -542,11 +542,11 @@
                                         <div class="cont md-mb50">
                                             <div>
                                                 <h5>
-                                                    <a href="../inner_pages/ser">Corporate Partnership <br> Initiative</a>
+                                                    <a href="../inner_pages/services.php">Corporate Partnership <br> Initiative</a>
                                                 </h5>
                                             </div>
                                             <div>
-                                                <p>Established strategic partnerships with leading European companies to create sustainable employment opportunities for international talent.</p>
+                                                <p class="js-splittext-lines">Established strategic partnerships with leading European companies to create sustainable employment opportunities for international talent.</p>
                                                 <div class="mt-40">
                                                     <a href="#0" class="tag">Corporate Partnerships</a>
                                                     <a href="#0" class="tag">International Recruitment</a>
