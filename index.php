@@ -319,18 +319,18 @@
                         <div class="row">
                             <div class="col-lg-7 valign">
                                 <div class="img full-width md-mb80">
-                                    <img src="assets/imgs/intro.png" alt="">
+                                    <img src="assets/imgs/intro.png" alt="Connect Everest International Services">
                                 </div>
                             </div>
                             <div class="col-lg-4 offset-lg-1 valign">
                                 <div class="sec-head">
-                                    <h6 class="sub-head mb-80">Our Philosophy</h6>
-                                    <h4>We help passionate Founders perfect theirs design & development game.
-                                        <span class="sub-color inline">Let's aim for the <br> top together!</span>
+                                    <h6 class="sub-head mb-80">Our Mission</h6>
+                                    <h4>We empower individuals and organizations to achieve their international aspirations through
+                                        <span class="sub-color inline">expert guidance and <br> seamless support.</span>
                                     </h4>
                                     <a href="../inner_pages/about.php" class="butn butn-md butn-bord butn-rounded mt-40">
                                         <div class="d-flex align-items-center">
-                                            <span>About Connect Everest</span>
+                                            <span>Learn About Our Journey</span>
                                             <span class="icon invert ml-10">
                                                 <img src="../common/imgs/icons/arrow-top-right.svg" alt="">
                                             </span>
