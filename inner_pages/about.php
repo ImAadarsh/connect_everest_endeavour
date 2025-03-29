@@ -523,12 +523,7 @@
                                                 <div class="swiper-slide">
                                                     <div class="item">
                                                         <div class="text">
-                                                            <h4>"Hubfolio studio ability to create a high quality UI is
-                                                                stands out. It's something we placed a premium on. A
-                                                                studio
-                                                                with passionate, professional, fun and full creativity.
-                                                                Recommend!".
-                                                            </h4>
+                                                            <h4>"Connect Everest has been instrumental in helping us find exceptional talent from Nepal. Their understanding of both local and European markets, combined with their professional approach, has made them an invaluable partner in our recruitment process."</h4>
                                                         </div>
                                                         <div
                                                             class="info d-flex align-items-center mt-40 pt-30 bord-thin-top-light">
@@ -539,8 +534,8 @@
                                                                 </div>
                                                             </div>
                                                             <div class="info-text">
-                                                                <span>Bradley Gordon</span>
-                                                                <p>CEO & Founder, Archin Studio</p>
+                                                                <span>Sarah Thompson</span>
+                                                                <p>HR Director, European Tech Solutions</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -548,12 +543,7 @@
                                                 <div class="swiper-slide">
                                                     <div class="item">
                                                         <div class="text">
-                                                            <h4>"Hubfolio studio ability to create a high quality UI is
-                                                                stands out. It's something we placed a premium on. A
-                                                                studio
-                                                                with passionate, professional, fun and full creativity.
-                                                                Recommend!".
-                                                            </h4>
+                                                            <h4>"The education consulting services provided by Connect Everest were exceptional. They guided me through the entire process of applying to UK universities, from course selection to visa applications. Their expertise made my journey to study in Europe seamless."</h4>
                                                         </div>
                                                         <div
                                                             class="info d-flex align-items-center mt-40 pt-30 bord-thin-top-light">
@@ -564,8 +554,8 @@
                                                                 </div>
                                                             </div>
                                                             <div class="info-text">
-                                                                <span>Bradley Gordon</span>
-                                                                <p>CEO & Founder, Archin Studio</p>
+                                                                <span>Priya Sharma</span>
+                                                                <p>Graduate Student, University of London</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -573,12 +563,7 @@
                                                 <div class="swiper-slide">
                                                     <div class="item">
                                                         <div class="text">
-                                                            <h4>"Hubfolio studio ability to create a high quality UI is
-                                                                stands out. It's something we placed a premium on. A
-                                                                studio
-                                                                with passionate, professional, fun and full creativity.
-                                                                Recommend!".
-                                                            </h4>
+                                                            <h4>"As a partner agency, we've found Connect Everest to be extremely professional and reliable. Their deep understanding of the European job market and commitment to quality has helped us place many candidates successfully."</h4>
                                                         </div>
                                                         <div
                                                             class="info d-flex align-items-center mt-40 pt-30 bord-thin-top-light">
@@ -589,8 +574,8 @@
                                                                 </div>
                                                             </div>
                                                             <div class="info-text">
-                                                                <span>Bradley Gordon</span>
-                                                                <p>CEO & Founder, Archin Studio</p>
+                                                                <span>Michael Chen</span>
+                                                                <p>Managing Partner, Global Recruitment Partners</p>
                                                             </div>
                                                         </div>
                                                     </div>
