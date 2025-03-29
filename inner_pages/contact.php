@@ -1,48 +1,38 @@
 <?php
+require_once '../common/config/db_connect.php';
 
-// configure
-$from = 'Demo contact form <demo@domain.com>';
-$sendTo = 'Test contact form <hisham.a.mohamed007@gmail.com>'; // Add Your Email
-$subject = 'New message from contact form';
-$fields = array('name' => 'Name', 'subject' => 'Subject', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in the email
-$okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
-$errorMessage = 'There was an error while submitting the form. Please try again later';
+header('Content-Type: application/json');
 
-// let's do the sending
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    try {
+        $name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_STRING);
+        $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
+        $subject = filter_input(INPUT_POST, 'subject', FILTER_SANITIZE_STRING);
+        $budget = filter_input(INPUT_POST, 'budget', FILTER_SANITIZE_STRING);
+        $message = filter_input(INPUT_POST, 'message', FILTER_SANITIZE_STRING);
 
-try
-{
-    $emailText = "You have new message from contact form\n=============================\n";
-
-    foreach ($_POST as $key => $value) {
-
-        if (isset($fields[$key])) {
-            $emailText .= "$fields[$key]: $value\n";
+        if (!$name || !$email || !$message) {
+            throw new Exception("Required fields are missing");
         }
+
+        $stmt = $conn->prepare("INSERT INTO contact_queries (name, email, subject, budget, message) VALUES (?, ?, ?, ?, ?)");
+        $stmt->execute([$name, $email, $subject, $budget, $message]);
+
+        echo json_encode([
+            'status' => 'success',
+            'message' => 'Thank you for your message. We will get back to you soon!'
+        ]);
+
+    } catch (Exception $e) {
+        echo json_encode([
+            'status' => 'error',
+            'message' => 'There was an error processing your request. Please try again.'
+        ]);
     }
-
-    $headers = array('Content-Type: text/plain; charset="UTF-8";',
-        'From: ' . $from,
-        'Reply-To: ' . $from,
-        'Return-Path: ' . $from,
-    );
-    
-    mail($sendTo, $subject, $emailText, implode("\n", $headers));
-
-    $responseArray = array('type' => 'success', 'message' => $okMessage);
+} else {
+    echo json_encode([
+        'status' => 'error',
+        'message' => 'Invalid request method'
+    ]);
 }
-catch (\Exception $e)
-{
-    $responseArray = array('type' => 'danger', 'message' => $errorMessage);
-}
-
-if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
-    $encoded = json_encode($responseArray);
-
-    header('Content-Type: application/json');
-
-    echo $encoded;
-}
-else {
-    echo $responseArray['message'];
-}
+?>
