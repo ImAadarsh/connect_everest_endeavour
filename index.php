@@ -924,12 +924,6 @@
                                                         <input id="form_subject" type="text" name="subject" placeholder="subject" required="required">
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-6">
-                                                    <div class="form-group mb-30">
-                                                        <label for="form_budget">Your Budget <span class="opt sub-color">(Optional)</span></label>
-                                                        <input id="form_budget" type="text" name="budget" placeholder="A range of budget for project">
-                                                    </div>
-                                                </div>
                                                 <div class="col-12">
                                                     <div class="form-group">
                                                         <label for="form_message">Message</label>
@@ -1055,6 +1049,48 @@
 
     <!-- custom scripts -->
     <script src="assets/js/scripts.js"></script>
+
+    <!-- Contact Form Script -->
+    <script>
+        $(document).ready(function() {
+            $('#contact-form').on('submit', function(e) {
+                e.preventDefault();
+                
+                // Get form data
+                var formData = $(this).serialize();
+                
+                // Disable submit button
+                var submitBtn = $(this).find('button[type="submit"]');
+                submitBtn.prop('disabled', true);
+                
+                // Clear previous messages
+                $('.messages').empty();
+                
+                // Send AJAX request
+                $.ajax({
+                    type: 'POST',
+                    url: 'contact.php',
+                    data: formData,
+                    dataType: 'json',
+                    success: function(response) {
+                        if (response.status === 'success') {
+                            $('.messages').html('<div class="alert alert-success">' + response.message + '</div>');
+                            $('#contact-form')[0].reset();
+                        } else {
+                            $('.messages').html('<div class="alert alert-danger">' + response.message + '</div>');
+                        }
+                    },
+                    error: function() {
+                        $('.messages').html('<div class="alert alert-danger">An error occurred. Please try again later.</div>');
+                    },
+                    complete: function() {
+                        // Re-enable submit button
+                        submitBtn.prop('disabled', false);
+                    }
+                });
+            });
+        });
+    </script>
 
 </body>
 
