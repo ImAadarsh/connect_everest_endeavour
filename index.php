@@ -21,10 +21,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 
     <!-- Plugins -->
-    <link rel="stylesheet" href="../common/css/plugins.css">
+    <link rel="stylesheet" href="common/css/plugins.css">
 
     <!-- Core Style Css -->
-    <link rel="stylesheet" href="../common/css/common_style.css">
+    <link rel="stylesheet" href="common/css/common_style.css">
     <link rel="stylesheet" href="assets/css/home1-style.css">
 
 </head>
@@ -106,7 +106,7 @@
                     <div class="d-flex align-items-center">
                         <span>Contact Us</span>
                         <span class="icon ml-10">
-                            <img src="../common/imgs/icons/arrow-top-right.svg" alt="">
+                            <img src="common/imgs/icons/arrow-top-right.svg" alt="">
                         </span>
                     </div>
                 </a>
@@ -298,7 +298,7 @@
                                             </div>
                                             <div class="ml-auto">
                                                 <div class="icon invert">
-                                                    <img src="../common/imgs/icons/bezier-curve-solid.svg" alt="">
+                                                    <img src="common/imgs/icons/bezier-curve-solid.svg" alt="">
                                                 </div>
                                             </div>
                                         </div>
@@ -317,7 +317,7 @@
                                             </div>
                                             <div class="ml-auto">
                                                 <div class="icon invert">
-                                                    <img src="../common/imgs/icons/code-solid.svg" alt="">
+                                                    <img src="common/imgs/icons/code-solid.svg" alt="">
                                                 </div>
                                             </div>
                                         </div>
@@ -336,7 +336,7 @@
                                             </div>
                                             <div class="ml-auto">
                                                 <div class="icon invert">
-                                                    <img src="../common/imgs/icons/chart-line-solid.svg" alt="">
+                                                    <img src="common/imgs/icons/chart-line-solid.svg" alt="">
                                                 </div>
                                             </div>
                                         </div>
@@ -374,7 +374,7 @@
                                         <div class="d-flex align-items-center">
                                             <span>Learn About Our Journey</span>
                                             <span class="icon invert ml-10">
-                                                <img src="../common/imgs/icons/arrow-top-right.svg" alt="">
+                                                <img src="common/imgs/icons/arrow-top-right.svg" alt="">
                                             </span>
                                         </div>
                                     </a>
@@ -568,7 +568,7 @@
                                 <div class="d-flex align-items-center">
                                     <span>View More Success Stories</span>
                                     <span class="icon invert ml-10">
-                                        <img src="../common/imgs/icons/arrow-top-right.svg" alt="">
+                                        <img src="common/imgs/icons/arrow-top-right.svg" alt="">
                                     </span>
                                 </div>
                             </a>
@@ -627,7 +627,7 @@
                                 <div class="item d-flex align-items-center justify-content-center">
                                     <div class="cont sub-color">
                                         <div class="icon invert">
-                                            <img src="../common/imgs/icons/global.svg" alt="">
+                                            <img src="common/imgs/icons/global.svg" alt="">
                                         </div>
                                         <span>125+ clients <br> worldwide</span>
                                     </div>
@@ -981,7 +981,7 @@
                                                         <button type="submit" class="butn butn-md butn-bord butn-rounded">
                                                             <span class="text">Send Your Message</span>
                                                             <span class="icon invert ml-10">
-                                                                <img src="../common/imgs/icons/arrow-top-right.svg" alt="">
+                                                                <img src="common/imgs/icons/arrow-top-right.svg" alt="">
                                                             </span>
                                                         </button>
                                                     </div>
@@ -1080,20 +1080,20 @@
 
 
     <!-- jQuery -->
-    <script src="../common/js/lib/jquery-3.6.0.min.js"></script>
-    <script src="../common/js/lib/jquery-migrate-3.4.0.min.js"></script>
+    <script src="common/js/lib/jquery-3.6.0.min.js"></script>
+    <script src="common/js/lib/jquery-migrate-3.4.0.min.js"></script>
 
     <!-- plugins -->
-    <script src="../common/js/lib/plugins.js"></script>
+    <script src="common/js/lib/plugins.js"></script>
 
     <!-- GSAP -->
-    <script src="../common/js/gsap_lib/gsap.min.js"></script>
-    <script src="../common/js/gsap_lib/ScrollSmoother.min.js"></script>
-    <script src="../common/js/gsap_lib/ScrollTrigger.min.js"></script>
-    <script src="../common/js/gsap_lib/SplitText.min.js"></script>
+    <script src="common/js/gsap_lib/gsap.min.js"></script>
+    <script src="common/js/gsap_lib/ScrollSmoother.min.js"></script>
+    <script src="common/js/gsap_lib/ScrollTrigger.min.js"></script>
+    <script src="common/js/gsap_lib/SplitText.min.js"></script>
 
     <!-- common scripts -->
-    <script src="../common/js/common_scripts.js"></script>
+    <script src="common/js/common_scripts.js"></script>
 
     <!-- custom scripts -->
     <script src="assets/js/scripts.js"></script>
